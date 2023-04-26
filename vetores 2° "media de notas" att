@@ -1,0 +1,45 @@
+
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : joao matheus costa (a) aluno(a)
+// Data atual  : 25/04/2023
+Var
+   // Seção de Declarações das variáveis
+   vet:vetor [1..4] de inteiro
+   media, soma : real
+   i:inteiro
+Inicio
+   // crie uma programa que leia 4 notas, armazenando em uma vetor
+
+   para i de 1 ate 4 faca
+      escreval ("digite sua nota ")
+      leia (vet[i])
+      soma <- soma + vet[i]
+   fimpara
+
+   media <- soma / i
+
+   para i de 1 ate 4 faca
+      escreval ("As notas FORAM:", vet[i])
+   fimpara
+
+   escreval ("media:", media :6:2)
+
+
+   se (media < 5)entao
+      escreval (" reprovado")
+   fimse
+   se (media >= 5) e(media < 7)entao
+      escreval ("recuperaçao")
+   fimse
+
+   se(media >= 7)entao
+      escreval ("aprovado")
+
+
+   fimse
+
+
+Fimalgoritmo
