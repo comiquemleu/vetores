@@ -1,0 +1,27 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 26/04/2023
+Var
+   // Seção de Declarações das variáveis
+   nomes: vetor [1..5] de caractere
+   idades: vetor [1..5] de inteiro
+   nome, idade : caractere
+   i : inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   para i de 1 ate 5 faca
+      escreval (" digite seu nome: ")
+      leia(nomes[1])
+      escreval (" digite sua idade:")
+      leia(idades[i])
+
+   fimpara
+
+   para i de 1 ate 5 faca
+   escreval(" nomes escritos:", nomes[i])
+   escreval("idade:", idades[i])
+   fimpara
+Fimalgoritmo
