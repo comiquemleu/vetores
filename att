@@ -1,0 +1,37 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 09/05/2023
+Var
+// Seção de Declarações das variáveis 
+soma: inteiro
+media: real
+produto : real
+numero :vetor [1..2] de inteiro
+i : inteiro
+n1, n2: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ para i de 1 ate 2 faca
+ escreval("digite um numero")
+ leia(numero[i])
+ limpatela
+ fimpara
+ 
+ soma <- ( numero[1] + numero[2])
+ escreval("SOMA:",soma)
+ 
+ media <- (numero[1] + numero[2])/2
+ escreval ("MEDIA:",media)
+ 
+ produto <- (numero[1] * numero[2])
+ escreval("PRODUTO:",produto)
+ 
+ 
+
+
+
+
+Fimalgoritmo
