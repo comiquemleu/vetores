@@ -1,0 +1,33 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : banda e seus integrantes 
+// Autor(a)    : joao matheus(a) aluno(a)
+// Data atual  : 09/05/2023
+Var
+   // Seção de Declarações das variáveis
+   banda: vetor [1..3] de caractere
+   integrantes: vetor[1..3,1..5] de caractere
+   i,j : inteiro
+Inicio
+   // 3 bandas e 5 integrantes
+
+   para i de 1 ate 3 faca
+      escreval("fale sua banda favorita:")
+      leia(banda[i])
+
+      para j de 1 ate 5 faca
+         escreval("fale seus integrantes:", banda[i])
+         leia(integrantes[i,j])
+
+      fimpara
+   fimpara
+
+   para i de 1 ate 3 faca
+      escreval("as bandas foram:", banda[i])
+      para j de 1 ate 5 faca
+         escreval("os integrantes:", integrantes[i,j])
+
+      fimpara
+   fimpara
+Fimalgoritmo
