@@ -1,0 +1,59 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : matheus(a) aluno(a)
+// Data atual  : 09/05/2023
+Var
+   // Seção de Declarações das variáveis
+   idade: vetor [1..2] de caractere
+   nome: vetor [1..2] de caractere
+   numero: vetor [1..2] de inteiro
+   secao: vetor [1..2] de inteiro
+   zona: vetor [1..2] de caractere
+   agencia: vetor [1..2] de inteiro
+   banco:vetor [1..2] de inteiro
+   conta: vetor [1..2] de inteiro
+   i, j: inteiro
+   varia1: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   para  i de 1 ate 2 faca
+      escreval("digite seu nome:")
+      leia(nome[i])
+      escreval("sua idades?:", nome[i])
+      leia(idade[i])
+      escreval ("qual seu numero:",nome[i])
+      leia(numero[i])
+      escreval("qual sua seçao?:", nome[i])
+      leia(secao[i])
+      escreval("qual sua zona", nome[i])
+      leia(zona[i])
+      escreval("seu banco:", nome[i])
+      leia(banco[i])
+      escreval("digite sua agencia:", nome[i])
+      leia(agencia[i])
+      escreval("sua conta:",nome[i])
+      leia(conta[i])
+      
+   limpatela
+      se idade[i] >= 16  entao
+         escreval ("menor de idade")
+         
+           fimse
+       fimpara
+         para i de 1 ate 2 faca
+            escreval ("NOME:", nome[i])
+            escreval("IDADE:", idade[i])
+            escreval ("NUMERO:",numero[i])
+            escreval("SEÇAO:", secao[i])
+            escreval("ZONA",zona[i])
+            escreval("BANCO:", banco[i])
+            escreval("AGENCIA:", agencia[i])
+            escreval("CONTA:",conta[i])
+            escreval("____________________")
+         fimpara
+
+
+
+Fimalgoritmo
